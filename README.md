@@ -1,4 +1,4 @@
-# PharmaAssist-LLM: Intelligent Pharmaceutical Assistant (PoC) 🏥💊
+# PharmaAssist-LLM: Pharmaceutical Assistant (PoC) 🏥💊
 
 This repository contains a **Proof of Concept (PoC)** for an AI-powered Pharmaceutical Assistant. The project integrates advanced Natural Language Processing (NLP) techniques, including **Fine-Tuning** and **RAG (Retrieval-Augmented Generation)** (RAFT), to provide accurate information about medications, drug compositions and pharmacological mechanisms.
 
