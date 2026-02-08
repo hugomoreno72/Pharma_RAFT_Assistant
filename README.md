@@ -19,7 +19,8 @@ The workflow is organized into five sequential stages:
 
 ## Results Analysis and Conclusions
 
-A triple-blind evaluation was implemented to compare the performance of three different models under identical pharmacological stress conditions.
+A triple-blind evaluation was implemented to compare the performance of three different models:
+Gemma-3-4B Base, Gemma-3-4B that combines a RAG system with QLoRA and Qwen 2.5 32B.
 A Llama-3.3-70B model was utilized as an "AI Judge" (AI-as-a-Judge). It evaluated 3 critical metrics on a scale of 1 to 10 (fidelity, accuracy and safety), 
 based on questions randomly generated from the local knowledge base (Katzung Textbook + Kaggle Dataset).
 
