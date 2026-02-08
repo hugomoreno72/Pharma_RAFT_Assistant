@@ -23,6 +23,7 @@ The workflow is organized into five sequential stages:
 Gemma-3-4B Base, Gemma-3-4B with a combination of a RAG system and QLoRA and Qwen 2.5 32B.
 * A Llama-3.3-70B model was utilized as an "AI Judge" (AI-as-a-Judge). It evaluated 3 critical metrics on a scale of 1 to 10 (fidelity, accuracy and safety), 
 based on questions randomly generated from the local knowledge base (Katzung Textbook + Kaggle Dataset).
+* The final metrics obtained from the evaluation of 20 questions indicate that all three models are practically equal in terms of reliability. The result is not statistically significant, as 20 questions is too small a sample size to thoroughly evaluate an LLM. However, due to the usage restrictions of free-tier tools, a more exhaustive evaluation was not possible at this time.
 
 
 
