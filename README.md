@@ -24,9 +24,9 @@ LangChain, FAISS, Groq Cloud, Pandas, NumPy, PyPDF.
 
 # Dataset
 
-https://www.kaggle.com/datasets/singhnavjot2062001/11000-medicine-details/data
-Katzung - Basic and Clinical Pharmacology 12th Edition (2012)
-General Principles of Pharmacology
+* https://www.kaggle.com/datasets/singhnavjot2062001/11000-medicine-details/data
+* Katzung - Basic and Clinical Pharmacology 12th Edition (2012)
+* General Principles of Pharmacology
 
 ## Prerequisites
 * Python 3.10+
