@@ -17,12 +17,28 @@ The workflow is organized into five sequential stages:
 4.  **`04_Inference_RAG`**: The core assistant logic, combining the fine-tuned model with real-time document retrieval.
 5.  **`05_Benchmarking`**: Comparative analysis of model outputs to ensure reliability and medical consistency.
 
+## Results Analysis and Conclusions
+
+A triple-blind evaluation was implemented to compare the performance of three different models under identical pharmacological stress conditions.
+A Llama-3.3-70B model was utilized as an "AI Judge" (AI-as-a-Judge). It evaluated 3 critical metrics on a scale of 1 to 10 (fidelity, accuracy and safety), 
+based on questions randomly generated from the local knowledge base (Katzung Textbook + Kaggle Dataset).
+
+
+
+## Future Improvements
+
+* To scale this project into a production-level tool, the following development lines are proposed:
+* Agentic RAG (Multi-stage Agents): Implement reasoning logic where the model decides whether it needs to search the technical textbook (Katzung) or the commercial list (Kaggle) before formulating a response.
+* Multimodal Support: Integrate the capability to analyze images of medical prescriptions or drug labels using Vision Language Models (VLM).
+* Human Expert Evaluation: Conduct a comparative benchmark where licensed pharmacists validate the AI Judge's ratings to calibrate the sensitivity of the evaluation.
+* Expansion of the Knowledge Base: Include Clinical Practice Guidelines (CPGs) and more extensive drug-drug interaction databases to cover complex polypharmacy cases.
+
 ## Stack
 
 Python, Unsloth, Llama-3, Hugging Face Transformers, PEFT, 
 LangChain, FAISS, Groq Cloud, Pandas, NumPy, PyPDF.
 
-# Dataset
+## Dataset
 
 * https://www.kaggle.com/datasets/singhnavjot2062001/11000-medicine-details/data
 * Katzung - Basic and Clinical Pharmacology 12th Edition (2012)
